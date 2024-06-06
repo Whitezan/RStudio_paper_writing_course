@@ -399,6 +399,7 @@ panel_NOS2d_HCR <- ggdraw() + draw_image(readPNG("analysis/pictures/HCR-IHC_51_A
   draw_label("acTub", x = 0.36, y = 0.9, color="green", size = 11, fontface="plain") +
   draw_line(x = c(0.1, 0.46), y = c(0.08, 0.08), color = "white", size = 0.5) +
   draw_label(expression(paste("20 ", mu, "m")), x = 0.28, y = 0.11, color = "white", size = 8)
+panel_NOS2d_HCR
   
 panel_NIT_HCR <- ggdraw() + draw_image(readPNG("analysis/pictures/HCR_72_AP_NIT_94um.png")) +
   draw_label("transgene + IHC", x = 0.5, y = 0.99, size = 10) +
